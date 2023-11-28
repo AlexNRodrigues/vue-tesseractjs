@@ -18,7 +18,7 @@
 
     <div v-if="progressInfo" class="flex justify-between items-center">
       {{ progressInfo }}% {{ status }}
-      <button class=" p-1 border rounded" v-if="imageData" @click="removeImage">Remove</button>
+      <button class="p-1 border rounded" v-if="imageData" @click="removeImage">Remove</button>
     </div>
     <button
       class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
