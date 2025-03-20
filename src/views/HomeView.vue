@@ -1,5 +1,8 @@
 <template>
   <section class="text-gray-400 bg-gray-900 body-font">
+    <div class="text-yellow">
+    3ºEM02-EMI-IPI
+    </div>
     <div class="container px-5 py-24 mx-auto flex flex-wrap items-center gap-3 md:gap-0">
       <BaseImageUpload @text="recognizedText" />
 
